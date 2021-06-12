@@ -3,8 +3,8 @@ class Display {
           this.displayValorActual = displayValorActual;
           this.displayValorAnterior = displayValorAnterior;
           this.calculador = new Calculadora();
-          this.valorActual = "";
-          this.valorAnterior = "";
+          this.valorActual = '';
+          this.valorAnterior = '';
      }
 
      agregarNumero(numero){
@@ -13,7 +13,8 @@ class Display {
      }
 
      imprimirElemento(){
-          this.displayValorActual.textContent = this.valorActual;
-          this.displayValorAnterior.textContent = this.valorAnterior;
+     this.displayValorActual = this.valorActual;
+     this.displayValorActual.textContent = this.valorActual;
+     this.displayValorAnterior = this.valorAnterior;
      }
 }
