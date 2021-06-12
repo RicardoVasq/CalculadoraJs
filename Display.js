@@ -13,8 +13,6 @@ class Display {
      }
 
      imprimirElemento(){
-     this.displayValorActual = this.valorActual;
      this.displayValorActual.textContent = this.valorActual;
-     this.displayValorAnterior = this.valorAnterior;
      }
 }
