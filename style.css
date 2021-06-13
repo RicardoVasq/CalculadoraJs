@@ -45,7 +45,7 @@ button:focus{
 }
 
 .display{
-     grid-column: 1/-1;
+     grid-column: 1 / -1;
      padding: 16px;
      display: flex;
      margin: 10px 10px 20px;
@@ -56,7 +56,7 @@ button:focus{
      text-align: right;
      justify-content: space-between;
      word-break: break-all;
-     box-shadow: 0px, 0px, 10px #00000033;
+     box-shadow: 0px 0px 0px 10px #00000033;
 }
 
 .col-2{
